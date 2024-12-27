@@ -64,3 +64,92 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+## Task Management System
+
+1. Project Title 
+
+Example: # Laravel api development for task management system 
+
+2. Project Description
+
+Example: This project is developed using Laravel and Laravel Sanctum to create a secure REST API for login, registration, and CRUD operations. It demonstrates how to implement authentication and manage resources effectively. 
+
+3. Features
+
+Login and Registration using Sanctum
+
+Secure API Endpoints
+
+CRUD Operations for ['title','description','status','user_id']
+
+Token-based Authentication
+
+4. Technologies Used
+
+Laravel 11
+Laravel 11 Bootstrap Auth
+Laravel Sanctum
+MySQL
+Postman for API Testing
+
+5. Installation Guide
+
+Clone the Repository: git clone <repository-link> cd <project-folder> 
+
+Install Dependencies: composer install 
+
+Set Up Environment:
+Rename .env.example to .env and configure database settings.
+
+Run Migrations: php artisan migrate 
+
+Run the Project: php artisan serve 
+
+6. API Endpoints
+
+Authentication Endpoints: 
+
+POST /api/register (User Registration)
+
+POST /api/login (User Login)
+
+POST /api/logout (Logout)
+
+CRUD Endpoints: 
+
+GET /api/index (Retrieve All Resource)
+
+POST /api/task (store Resource)
+
+PUT /api/task-all-update/{id} (Update Resource)
+
+DELETE /api/task-destroy/{id} (Delete Resource)
+
+Get /api/task/{value} (shorting)
+
+7. Authentication Details
+
+Use Bearer Tokens for API authentication.
+
+Include the token in the Authorization header.
+Example: Authorization: Bearer <your-token> 
+
+8. Future Scope
+
+Add role-based access control.
+
+Enhance error handling.
+
+Implement unit and feature tests.
+
+9. Contributors
+
+[Farzana Bhuiyan]
+
+Example File Structure:
+
+README.md .env app/ resources/ routes/ database/ 
